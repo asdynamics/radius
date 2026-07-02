@@ -72,6 +72,15 @@ p.big,
   font-size: 1.1em;
 }
 
+.home-subtitle {
+  font-size: 0.98rem;
+  line-height: 1.65;
+}
+
+.home-subtitle span {
+  display: block;
+}
+
 .muted,
 .date {
   color: var(--c-muted);
@@ -229,6 +238,11 @@ blockquote {
   .title-w {
     border-radius: 0.8em;
     margin-bottom: 2.2em;
+  }
+
+  .home-subtitle {
+    font-size: 0.9rem;
+    line-height: 1.55;
   }
 
   .article {
