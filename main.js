@@ -6,7 +6,7 @@ const fallbackPeople = [
     name: "바네사 나카테",
     date: "2026.07.02",
     summary: "기후위기를 먼 구호가 아니라 어린이, 학교, 숲으로 옮겨온 사람이다.",
-    url: "article/vanessa-nakate/",
+    url: "article/vanessa-nakate/index.html",
     tags: ["기후정의", "아프리카", "생태"],
   },
   {
@@ -14,7 +14,7 @@ const fallbackPeople = [
     name: "오텀 펠티어",
     date: "2026.06.30",
     summary: "물을 지키는 일은 자기 삶의 경계를 다시 긋는 일이다.",
-    url: "article/autumn-peltier/",
+    url: "article/autumn-peltier/index.html",
     tags: ["물", "원주민 권리", "기후정의"],
   },
 ];
@@ -23,7 +23,7 @@ function normalizeUrl(item) {
   if (item.url) {
     return item.url;
   }
-  return `article/${item.slug}/`;
+  return `article/${item.slug}/index.html`;
 }
 
 function renderPeople(people) {
