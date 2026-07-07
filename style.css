@@ -156,6 +156,15 @@ p.big,
 
 .essay-doc h1 {
   font-size: 2.5em;
+  margin-bottom: 0.25rem;
+}
+
+.name-en {
+  color: var(--c-muted);
+  font-size: 0.82rem;
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+  margin-bottom: 1.2rem;
 }
 
 .essay-doc .date {
