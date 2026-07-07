@@ -134,7 +134,22 @@ p.big,
   content: "< ";
 }
 
+.edit-link {
+  color: var(--c-muted);
+  float: right;
+  font-size: 0.72rem;
+  opacity: 0.55;
+  text-decoration: none;
+}
+
+.edit-link:hover,
+.edit-link:focus-visible {
+  color: var(--c-highlight-1);
+  opacity: 1;
+}
+
 .essay-doc {
+  clear: both;
   border-top: 1px solid var(--c-highlight-2);
   padding-top: 2rem;
 }
