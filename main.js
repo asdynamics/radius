@@ -2,6 +2,14 @@ const listEl = document.querySelector("[data-essay-list]");
 
 const fallbackPeople = [
   {
+    slug: "bryan-stevenson",
+    name: "브라이언 스티븐슨",
+    date: "2026.07.09",
+    summary: "사건 번호와 죄명 뒤에 밀려난 사람들의 이름을 끝까지 불러준 변호사다.",
+    url: "article/bryan-stevenson/index.html",
+    tags: ["사법정의", "감옥·처벌 제도", "인권"],
+  },
+  {
     slug: "joy-buolamwini",
     name: "조이 부올람위니",
     date: "2026.07.07",
