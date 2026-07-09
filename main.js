@@ -1,4 +1,5 @@
 const listEl = document.querySelector("[data-essay-list]");
+const DATA_VERSION = "20260709-2";
 
 const fallbackPeople = [
   {
@@ -85,7 +86,7 @@ async function loadPeople() {
   renderPeople(fallbackPeople);
 
   try {
-    const response = await fetch("./data/people.json", { cache: "no-store" });
+    const response = await fetch(`./data/people.json?v=${DATA_VERSION}`, { cache: "no-store" });
     if (!response.ok) {
       throw new Error(`people.json ${response.status}`);
     }
