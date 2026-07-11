@@ -1,7 +1,15 @@
 const listEl = document.querySelector("[data-essay-list]");
-const DATA_VERSION = "20260709-2";
+const DATA_VERSION = "20260711-1";
 
 const fallbackPeople = [
+  {
+    slug: "helen-prejean",
+    name: "헬렌 프레진",
+    date: "2026.07.11",
+    summary: "사형수의 마지막 방과 피해자 가족의 빈 의자 사이에서, 처벌의 언어가 놓치는 얼굴들을 바라본다.",
+    url: "article/helen-prejean/index.html",
+    tags: ["사형제", "감옥·처벌 제도", "비폭력"],
+  },
   {
     slug: "bryan-stevenson",
     name: "브라이언 스티븐슨",
